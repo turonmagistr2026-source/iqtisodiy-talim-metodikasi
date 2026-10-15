@@ -1,0 +1,22 @@
+﻿node_modules/
+backup-*/
+backup_*/
+*.backup
+.env
+.env.*
+!.env.example
+
+# Backup files
+*.before-modern
+*.backup
+
+# Local dependencies
+node_modules/
+
+# Environment secrets
+.env
+.env.*
+
+
+*.before-*
+supabase-setup.sql
